@@ -1,0 +1,157 @@
+#initial-logo {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+#gatoMedico {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin: 0 auto 10px;
+  border-radius: 20px;
+}
+
+.header-container {
+  display: grid;
+  background-color: #E8F4F8;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  grid-template-columns: 50% 50%;
+  font-size: 13px;
+}
+
+.grid-container {
+    border-radius: 20px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background-color: #F0F8FF;
+  padding: 20px;
+    font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 10px;
+}
+
+#ciudad1 {
+  border: #3498DB solid 2px;
+	background-color: #87CEEB;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+#ciudad2 {
+  border: #3498DB solid 2px;
+	background-color: #B0E0E6;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+#ciudad3{
+  border: #3498DB solid 2px;
+	background-color: #ADD8E6;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+
+/*
+#ciudad4 {
+	background-color:#39dc10;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+    border-radius: 20px;
+}
+
+#ciudad5 {
+	background-color:#af12c4;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+*/
+
+/* Aca usaré por agrupacion para las ultimas 3 ciudades */
+#ciudad6, #ciudad1{
+  text-align: end;
+}
+#ciudad6, #ciudad5, #ciudad4 {
+  border: 2px solid #3498DB;
+	background-color: #D6EAF8;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+    border-radius: 20px;
+    font-family: 'Fantasy', papyrus, 'Comic Sans MS', cursive;
+}
+
+#ciudad2, #ciudad5 {
+  text-align: center;
+}
+
+#ciudad4 {
+  text-align: left;
+}
+
+.centrada {
+  text-align: center;
+}
+
+.izquierda {
+  text-align: left;
+}
+
+.ciudad-derecha {
+  text-align: end;
+}
+
+ #button1, #button2, #button3, #button4, #button5, #button6 {
+  display: block;
+  background-color: #3498DB;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Times New Roman', serif;
+  margin: 10px auto;
+ }
+
+.second-grid-container {
+    margin-top: 0.5px;
+    border-radius: 20px;
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: #AED6F1;
+  padding: 20px;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
+
+.footer-container {
+  background-color: #3498DB;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
